@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Generador Numeros de Lotería</title>
+
+</head>
+<body>
+    <header>
+        <h1>Generador de números</h1>
+    </header>
+    <form action="">
+        <label for="numeros">Números
+            <input name="nums" id="nums" type="number" value="6" required>            
+        </label>
+        <label for="otros">Otros
+            <input name="otros" id="otros" type="number" value="2" required>            
+        </label>
+        <button type="button" id="actualizar">Actualizar</button>
+    </form>
+    
+    <section class="numeros">
+        <div id="numeros"></div>
+        <div id="estrellas"></div>        
+    </section>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
